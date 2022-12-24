@@ -22,7 +22,7 @@ body {
 
 .header-container{
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+   
 }
 
 .navbar-nav {
@@ -45,9 +45,9 @@ body {
 }
 
 .navbar-brand img {
-    height: 40px;
+
+    height: auto;
     width: 69px;
-    margin-left: 80px;
     z-index: 1;
 
 }
@@ -61,7 +61,6 @@ body {
 }
 
 .menu-bar {
-    padding-left: 280px;
     POSITION: FIXED;
     TOP: 0;
     BACKGROUND: WHITE;
@@ -1312,3 +1311,5 @@ header {
     font-size: 4rem;
     font-weight: 800;
 }
+
+
